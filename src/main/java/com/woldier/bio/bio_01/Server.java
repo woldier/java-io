@@ -20,7 +20,7 @@ public class Server {
             InputStream inputStream = accept.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             String s ;
-            if((s = reader.readLine()) != null){
+            while((s = reader.readLine()) != null){
                 System.out.println(s);
             }
         } catch (IOException e) {
