@@ -1,4 +1,4 @@
-package com.woldier.nio;
+package com.woldier.nio.nio_01_buffer;
 
 import org.junit.jupiter.api.Test;
 
