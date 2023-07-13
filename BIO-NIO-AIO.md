@@ -2274,7 +2274,7 @@ ssChannel.register(selector, SelectionKey.OP_ACCEPT);
 * 写 : SelectionKey.OP_WRITE （4）
 * 连接 : SelectionKey.OP_CONNECT （8）
 *  接收 : SelectionKey.OP_ACCEPT （16）
-* 若注册时不止监听一个事件，则可以使用“位或”操作符连接。
+* 若注册时不止监听一个事件，则可以使用“**位或**”操作符连接。
 
 ```java
 int interestSet = SelectionKey.OP_READ|SelectionKey.OP_WRITE 
